@@ -1,0 +1,140 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    width: 60%;
+    /* border: 2px solid rgb(208, 255, 0); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hair{
+
+    background-color: rgb(12, 2, 73);
+    width: 75%;
+    height: 250px;
+    border-radius: 100px 0px 100px 0px;
+    position: absolute;
+    top: 0px;
+
+
+}
+
+.face{
+
+    background-color: burlywood;
+    width: 68%;
+    height: 700px;
+    border-radius: 35% 0px 50% 50%;
+}
+
+.hair_r{
+
+    background-color: rgb(41, 41, 116);
+    width: 5%;
+    height: 195px;
+    position: absolute;
+    right: 112px;
+    top: 160px;
+    z-index: -1;
+}
+
+.hair_l{
+
+    background-color: rgb(41, 41, 116);
+    width: 5%;
+    height: 195px;
+    position: absolute;
+    right: 729px;
+    top: 175px;
+    z-index: -1;
+}
+
+.hair_shadow{
+
+    background-color: rgb(41, 41, 116);
+    width: 45%;
+    height: 125px;
+    border-radius: 100px 0px 100px 0px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+.ear_r{
+
+    background-color: rgb(255, 139, 62);
+    width: 5%;
+    height: 85px;
+    position: absolute;
+    right: 108px;
+    border-radius: 0px 45px 45px 0px;
+    top: 320px;
+    z-index: -1;
+}
+
+.ear_l{
+
+    background-color: rgb(255, 139, 62);
+    width: 5%;
+    height: 85px;
+    position: absolute;
+    right: 732px;
+    top: 320px;
+    border-radius: 45px 0px 0px 45px;
+    z-index: -1;
+
+}
+
+.eyebrow{
+
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    top: 275px;
+    right: 300px;
+
+}
+
+.eyebrow_r{
+
+    background-color: rgb(7, 7, 53);
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 0px;
+    border-radius: 20px;
+}
+
+.eyebrow_l{
+
+    background-color: rgb(7, 7, 53);
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+/* .eyebrow_r::after{
+
+    content: var(lkjh);
+    background-color: darkcyan;
+    width: 20px;
+    height: 20px;
+} */
+
+.eyebrow_l{
+
+    background-color: rgb(7, 7, 53);
+    width: 40%;
+    height: 40%;
+
+}
